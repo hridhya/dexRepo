@@ -11,7 +11,7 @@ var parser = require('body-parser');
 app.use(morgan('dev'));
 app.use(parser.json());
 
-require('./config/routes.js')(app);
+//require('./config/routes.js')(app);
 
 app.set("port", 8000);
 
